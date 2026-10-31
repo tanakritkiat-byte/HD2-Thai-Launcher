@@ -1,0 +1,131 @@
+{
+  "version": "30",
+  "release_installer": "HD2ThaiLauncher_v30_Setup.exe",
+  "installer_sha256": "ac99403dfc16bd69853534d689386ecef8ba72c5b4f2b5796bf443beb43786f4",
+  "installer_bytes": 154828711,
+  "launcher_exe_sha256": "92bbcd4e31c8f6162c9aeb6cffe9d3cbe2d8250c903eb0dccabdd6b6b2d54ff7",
+  "python_version": "3.12.14",
+  "modules": [
+    {
+      "module": "api_linebreaks",
+      "matches_release_code": true,
+      "source_sha256": "2570aa2f55aacd00d5323f9b669e5d15106e92d7de41393f93bc21aebbc1aedb"
+    },
+    {
+      "module": "api_rules",
+      "matches_release_code": true,
+      "source_sha256": "d531d99c39c69062706cb7a87cd400fc707874dc1452f485e0b34db56d1fea0c"
+    },
+    {
+      "module": "context_markup",
+      "matches_release_code": true,
+      "source_sha256": "b1b7f01aebc4b21e28020706bb187b184031e279c80167a1899a2e2019673c4f"
+    },
+    {
+      "module": "game_discovery",
+      "matches_release_code": true,
+      "source_sha256": "8219f01081fcf63a3054f7017e2e66bc4f5dfde8e4d63ee71a18aa66e1ff5f12"
+    },
+    {
+      "module": "hot_swap_tables",
+      "matches_release_code": true,
+      "source_sha256": "e12bb15731d4bc9824f9e767920a35c7749e68f88c57970aab1af0e4c336ed7b"
+    },
+    {
+      "module": "language_runtime",
+      "matches_release_code": true,
+      "source_sha256": "db2b0ed45b93e5fc1e25a7448195a6cec280bb0672d6e70b5f1268f0c4382143"
+    },
+    {
+      "module": "launch_flow_ui",
+      "matches_release_code": true,
+      "source_sha256": "e5461d68673554233655f4eacbe4259c0cf6627d75965f33640144a35b02b619"
+    },
+    {
+      "module": "launcher_ui",
+      "matches_release_code": true,
+      "source_sha256": "ff6466b1a45d72f86210015bc11ee42a25cd713f99adc7fd2fe97210ecce9cd0"
+    },
+    {
+      "module": "mod_session",
+      "matches_release_code": true,
+      "source_sha256": "25c815cfadd0044ee8d1633627d38225bfe088b278540ef6fc9a68cc37792943"
+    },
+    {
+      "module": "motd_capture",
+      "matches_release_code": true,
+      "source_sha256": "3636fa3ecc6abc851ff63ccd75f279a2dedf3368024010ead79444e4f700463c"
+    },
+    {
+      "module": "project_paths",
+      "matches_release_code": true,
+      "source_sha256": "861625a1b106e78e9e2541e345ca6711d6807dda871a1abc6b9c2e19f7228519"
+    },
+    {
+      "module": "public_release",
+      "matches_release_code": true,
+      "source_sha256": "ab3f6f991225882097f89b97a724966d09d0b94d71c6760f668bd488b88e42a0"
+    },
+    {
+      "module": "sheet_markup_rules",
+      "matches_release_code": true,
+      "source_sha256": "11ce09e02ea90ef153550f64fe40fc086c5cec7abeb2f6a610814848b73329ce"
+    },
+    {
+      "module": "standalone_hotkeys",
+      "matches_release_code": true,
+      "source_sha256": "c7efe0076fb30671109bfb2ded71d9ae2ca07c53595ec741592830747a600791"
+    },
+    {
+      "module": "thai_codec",
+      "matches_release_code": true,
+      "source_sha256": "92d3982a2c5f37186388c07147523aa27e92a84f28df434615e8354a84601d33"
+    },
+    {
+      "module": "thai_linebreaks",
+      "matches_release_code": true,
+      "source_sha256": "6fed3c4f6ee151017f176208c221573b73205d67bdaedb3c5707a9e6198cb6d5"
+    },
+    {
+      "module": "three_languages",
+      "matches_release_code": true,
+      "source_sha256": "81c21777bf0b60824cb90f31bbf0bcb76e304ba57a8d67c585a1e0cfe0c3be8f"
+    },
+    {
+      "module": "translation",
+      "matches_release_code": true,
+      "source_sha256": "23f4089dc08f16fe0954962f8894008b411f5d52b070dcbd8954bcb0fcb700a1"
+    },
+    {
+      "module": "ui_review",
+      "matches_release_code": true,
+      "source_sha256": "673acd55e359f6eb7a96b45ccc5c01fdb700ab543ac83dd3481c0463a1429b3a"
+    },
+    {
+      "module": "update_translation",
+      "matches_release_code": true,
+      "source_sha256": "3b98370cddf5e60bc71ad4c2aff381c2791e0888f56b953cbf814899c7f7f33c"
+    },
+    {
+      "module": "launcher",
+      "matches_release_code": true,
+      "source_sha256": "2d3387eda8245be14051f5ae08beb559a6dc8633cd0e31d8c3fc6c4640cb354c"
+    },
+    {
+      "module": "locked_package_builder",
+      "matches_release_code": true,
+      "source_sha256": "69cb393a06b9983ef13a6bc6f31970536920503c974b31828b9dbeab1bb3e629"
+    }
+  ],
+  "runtime_assets_sha256": "7cb9a99814d5f8a0aba718254713b57903fd85a8307ecbb50c71601846410027",
+  "runtime_assets_bytes": 125564873,
+  "runtime_assets_in_repository": false,
+  "runtime_source_modified": false,
+  "build_changes": [
+    "Added portable build wrapper",
+    "Installer compiler path configurable through INNO_ISCC; all other installer source unchanged"
+  ],
+  "third_party_notice_files": 75,
+  "boot_lua_source_sha256": "031b175ee311424fe064c888007e2ea0fbca0039a53bbf37eb1ac320000585f8",
+  "boot_resource_payload_sha256": "fbb5f08e7e314b41ed1783184773012f2eb5437cec05b71d346488966765e570"
+}
